@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C118CC8A1FEB115C008C4DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC891FEB115C008C4DB5 /* AppDelegate.swift */; };
+		C118CC8C1FEB115C008C4DB5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */; };
+		C118CC8E1FEB115C008C4DB5 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */; };
+		C118CC911FEB115C008C4DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118CC8F1FEB115C008C4DB5 /* Main.storyboard */; };
+		C118CC931FEB115C008C4DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C118CC921FEB115C008C4DB5 /* Assets.xcassets */; };
+		C118CC961FEB115C008C4DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118CC941FEB115C008C4DB5 /* LaunchScreen.storyboard */; };
+		C118CCBE1FEB183C008C4DB5 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CCBD1FEB183C008C4DB5 /* ColorPickerViewController.swift */; };
+		C1B8AE3E1FEC30E50087EF41 /* ElectrodeWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8AE3D1FEC30E50087EF41 /* ElectrodeWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F90FC3F200976E700AA39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 485009E31E2FF23B009B6610;
+			remoteInfo = ElectrodeContainer;
+		};
+		7F90FC41200976E700AA39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 485009EC1E2FF23C009B6610;
+			remoteInfo = ElectrodeContainerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1B8AE3B1FEC29600087EF41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "Carthage/Checkouts/electrode-native-showcaseapp-ios-container/ElectrodeContainer.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		C118CC861FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectrodeNativeIOSShowCaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C118CC891FEB115C008C4DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		C118CC901FEB115C008C4DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C118CC921FEB115C008C4DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C118CC951FEB115C008C4DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C118CC971FEB115C008C4DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C118CCBD1FEB183C008C4DB5 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		C118CCD41FEB1B7D008C4DB5 /* ElectrodeNativeIOSShowCaseApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElectrodeNativeIOSShowCaseApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1B8AE3C1FEC30E50087EF41 /* ElectrodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectrodeWrapper.h; sourceTree = "<group>"; };
+		C1B8AE3D1FEC30E50087EF41 /* ElectrodeWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectrodeWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C118CC831FEB115C008C4DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F90FC2F200976E700AA39F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F90FC40200976E700AA39F5 /* ElectrodeContainer.framework */,
+				7F90FC42200976E700AA39F5 /* ElectrodeContainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C118CC7D1FEB115C008C4DB5 = {
+			isa = PBXGroup;
+			children = (
+				C118CC881FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp */,
+				C118CC871FEB115C008C4DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C118CC871FEB115C008C4DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C118CC861FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C118CC881FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				C118CC8F1FEB115C008C4DB5 /* Main.storyboard */,
+				C118CC891FEB115C008C4DB5 /* AppDelegate.swift */,
+				C118CCD41FEB1B7D008C4DB5 /* ElectrodeNativeIOSShowCaseApp-Bridging-Header.h */,
+				C1B8AE3C1FEC30E50087EF41 /* ElectrodeWrapper.h */,
+				C1B8AE3D1FEC30E50087EF41 /* ElectrodeWrapper.m */,
+				C118CC971FEB115C008C4DB5 /* Info.plist */,
+				C1B8AD6A1FEB1EC70087EF41 /* Libraries */,
+				C1B8AE401FEC7FCB0087EF41 /* Misc */,
+				C1B8AE3F1FEC7F950087EF41 /* UI */,
+			);
+			path = ElectrodeNativeIOSShowCaseApp;
+			sourceTree = "<group>";
+		};
+		C1B8AD6A1FEB1EC70087EF41 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C1B8AE3F1FEC7F950087EF41 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C118CCBD1FEB183C008C4DB5 /* ColorPickerViewController.swift */,
+				C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */,
+				C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C1B8AE401FEC7FCB0087EF41 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				C118CC921FEB115C008C4DB5 /* Assets.xcassets */,
+				C118CC941FEB115C008C4DB5 /* LaunchScreen.storyboard */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C118CC851FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C118CC9A1FEB115C008C4DB5 /* Build configuration list for PBXNativeTarget "ElectrodeNativeIOSShowCaseApp" */;
+			buildPhases = (
+				C118CC821FEB115C008C4DB5 /* Sources */,
+				C118CC831FEB115C008C4DB5 /* Frameworks */,
+				C118CC841FEB115C008C4DB5 /* Resources */,
+				C1B8AE3B1FEC29600087EF41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectrodeNativeIOSShowCaseApp;
+			productName = ElectrodeNativeIOSShowCaseApp;
+			productReference = C118CC861FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C118CC7E1FEB115C008C4DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = WalmartLabs;
+				TargetAttributes = {
+					C118CC851FEB115C008C4DB5 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C118CC811FEB115C008C4DB5 /* Build configuration list for PBXProject "ElectrodeNativeIOSShowCaseApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C118CC7D1FEB115C008C4DB5;
+			productRefGroup = C118CC871FEB115C008C4DB5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7F90FC2F200976E700AA39F5 /* Products */;
+					ProjectRef = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C118CC851FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7F90FC40200976E700AA39F5 /* ElectrodeContainer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ElectrodeContainer.framework;
+			remoteRef = 7F90FC3F200976E700AA39F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F90FC42200976E700AA39F5 /* ElectrodeContainerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ElectrodeContainerTests.xctest;
+			remoteRef = 7F90FC41200976E700AA39F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C118CC841FEB115C008C4DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118CC961FEB115C008C4DB5 /* LaunchScreen.storyboard in Resources */,
+				C118CC931FEB115C008C4DB5 /* Assets.xcassets in Resources */,
+				C118CC911FEB115C008C4DB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C118CC821FEB115C008C4DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118CC8E1FEB115C008C4DB5 /* MovieListViewController.swift in Sources */,
+				C1B8AE3E1FEC30E50087EF41 /* ElectrodeWrapper.m in Sources */,
+				C118CC8A1FEB115C008C4DB5 /* AppDelegate.swift in Sources */,
+				C118CCBE1FEB183C008C4DB5 /* ColorPickerViewController.swift in Sources */,
+				C118CC8C1FEB115C008C4DB5 /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C118CC8F1FEB115C008C4DB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C118CC901FEB115C008C4DB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C118CC941FEB115C008C4DB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C118CC951FEB115C008C4DB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C118CC981FEB115C008C4DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C118CC991FEB115C008C4DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C118CC9B1FEB115C008C4DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectrodeNativeIOSShowCaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WalmartLabs.ElectrodeNativeIOSShowCaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElectrodeNativeIOSShowCaseApp/ElectrodeNativeIOSShowCaseApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C118CC9C1FEB115C008C4DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectrodeNativeIOSShowCaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WalmartLabs.ElectrodeNativeIOSShowCaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElectrodeNativeIOSShowCaseApp/ElectrodeNativeIOSShowCaseApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C118CC811FEB115C008C4DB5 /* Build configuration list for PBXProject "ElectrodeNativeIOSShowCaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C118CC981FEB115C008C4DB5 /* Debug */,
+				C118CC991FEB115C008C4DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C118CC9A1FEB115C008C4DB5 /* Build configuration list for PBXNativeTarget "ElectrodeNativeIOSShowCaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C118CC9B1FEB115C008C4DB5 /* Debug */,
+				C118CC9C1FEB115C008C4DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C118CC7E1FEB115C008C4DB5 /* Project object */;
+}
