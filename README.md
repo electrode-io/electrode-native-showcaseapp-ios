@@ -21,6 +21,8 @@ carthage bootstrap --no-build --platform ios
 ```
  ### Build
  
- build `ElectrodeContainer` project first before building the `ElectrodeNativeiOSShowCaseApp`
+- Open the `ElectrodeNativeIOSShowCaseApp.xcodeproj` in Xcode
+- Change the target to `ElectrodeContainer` and build that first before building the `ElectrodeNativeIOSShowCaseApp`
+- Once container is built, change the target to `ElectrodeNativeiOSShowCaseApp` and run the project.
  
- once container is built, run the `ElectrodeNativeiOSShowCaseApp`
+ NOTE: If you clean the project, the container needs to be built again. While building the container you might see a terminal pop up with an error, please ignore and close the window. 
