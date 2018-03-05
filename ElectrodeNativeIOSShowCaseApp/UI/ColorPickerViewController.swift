@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class ColorPickerViewController: UIViewController
-{
+class ColorPickerViewController: ERNBaseViewController {
+    static let identifier = "colorpicker"
     @IBOutlet weak var hexValueBackgroundView: UIView!
     @IBOutlet weak var hexValueLabel: UILabel!
     

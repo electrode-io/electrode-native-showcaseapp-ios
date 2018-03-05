@@ -8,8 +8,9 @@
 
 import UIKit
 
-class MovieListViewController: UIViewController
+class MovieListViewController: ERNBaseViewController
 {
+    static let identifier = "movielist"
     override func viewDidLoad()
     {
         super.viewDidLoad()

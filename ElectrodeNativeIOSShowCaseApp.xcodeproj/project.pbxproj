@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306EE396204DF78400820863 /* ElectrodeContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306EE391204DF77100820863 /* ElectrodeContainer.framework */; };
+		306EE3A4204DFC3000820863 /* ERNTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EE3A3204DFC3000820863 /* ERNTabBarController.swift */; };
+		306EE3A6204DFC6E00820863 /* ERNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EE3A5204DFC6E00820863 /* ERNBaseViewController.swift */; };
+		306EE3A8204DFD5100820863 /* ERNNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EE3A7204DFD5100820863 /* ERNNavigationController.swift */; };
 		C118CC8A1FEB115C008C4DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC891FEB115C008C4DB5 /* AppDelegate.swift */; };
-		C118CC8C1FEB115C008C4DB5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */; };
 		C118CC8E1FEB115C008C4DB5 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */; };
 		C118CC911FEB115C008C4DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118CC8F1FEB115C008C4DB5 /* Main.storyboard */; };
 		C118CC931FEB115C008C4DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C118CC921FEB115C008C4DB5 /* Assets.xcassets */; };
@@ -18,19 +21,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F90FC3F200976E700AA39F5 /* PBXContainerItemProxy */ = {
+		306EE390204DF77100820863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+			containerPortal = 306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 485009E31E2FF23B009B6610;
 			remoteInfo = ElectrodeContainer;
 		};
-		7F90FC41200976E700AA39F5 /* PBXContainerItemProxy */ = {
+		306EE392204DF77100820863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+			containerPortal = 306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 485009EC1E2FF23C009B6610;
 			remoteInfo = ElectrodeContainerTests;
+		};
+		306EE394204DF78000820863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 485009E21E2FF23B009B6610;
+			remoteInfo = ElectrodeContainer;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,10 +58,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "Carthage/Checkouts/electrode-native-showcaseapp-ios-container/ElectrodeContainer.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "Carthage/Checkouts/electrode-native-showcaseapp-ios-container/ElectrodeContainer.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		306EE3A3204DFC3000820863 /* ERNTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERNTabBarController.swift; sourceTree = "<group>"; };
+		306EE3A5204DFC6E00820863 /* ERNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERNBaseViewController.swift; sourceTree = "<group>"; };
+		306EE3A7204DFD5100820863 /* ERNNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERNNavigationController.swift; sourceTree = "<group>"; };
 		C118CC861FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectrodeNativeIOSShowCaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C118CC891FEB115C008C4DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		C118CC901FEB115C008C4DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C118CC921FEB115C008C4DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,17 +80,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306EE396204DF78400820863 /* ElectrodeContainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F90FC2F200976E700AA39F5 /* Products */ = {
+		306EE37E204DF74E00820863 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F90FC40200976E700AA39F5 /* ElectrodeContainer.framework */,
-				7F90FC42200976E700AA39F5 /* ElectrodeContainerTests.xctest */,
+				306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */,
+			);
+			name = Frameworks;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		306EE380204DF77000820863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306EE391204DF77100820863 /* ElectrodeContainer.framework */,
+				306EE393204DF77100820863 /* ElectrodeContainerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +108,7 @@
 		C118CC7D1FEB115C008C4DB5 = {
 			isa = PBXGroup;
 			children = (
+				306EE37E204DF74E00820863 /* Frameworks */,
 				C118CC881FEB115C008C4DB5 /* ElectrodeNativeIOSShowCaseApp */,
 				C118CC871FEB115C008C4DB5 /* Products */,
 			);
@@ -108,27 +131,20 @@
 				C1B8AE3C1FEC30E50087EF41 /* ElectrodeWrapper.h */,
 				C1B8AE3D1FEC30E50087EF41 /* ElectrodeWrapper.m */,
 				C118CC971FEB115C008C4DB5 /* Info.plist */,
-				C1B8AD6A1FEB1EC70087EF41 /* Libraries */,
 				C1B8AE401FEC7FCB0087EF41 /* Misc */,
 				C1B8AE3F1FEC7F950087EF41 /* UI */,
 			);
 			path = ElectrodeNativeIOSShowCaseApp;
 			sourceTree = "<group>";
 		};
-		C1B8AD6A1FEB1EC70087EF41 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
 		C1B8AE3F1FEC7F950087EF41 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				C118CCBD1FEB183C008C4DB5 /* ColorPickerViewController.swift */,
-				C118CC8B1FEB115C008C4DB5 /* IntroViewController.swift */,
 				C118CC8D1FEB115C008C4DB5 /* MovieListViewController.swift */,
+				306EE3A3204DFC3000820863 /* ERNTabBarController.swift */,
+				306EE3A5204DFC6E00820863 /* ERNBaseViewController.swift */,
+				306EE3A7204DFD5100820863 /* ERNNavigationController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -157,6 +173,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				306EE395204DF78000820863 /* PBXTargetDependency */,
 			);
 			name = ElectrodeNativeIOSShowCaseApp;
 			productName = ElectrodeNativeIOSShowCaseApp;
@@ -193,8 +210,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7F90FC2F200976E700AA39F5 /* Products */;
-					ProjectRef = 7F90FC2E200976E700AA39F5 /* ElectrodeContainer.xcodeproj */;
+					ProductGroup = 306EE380204DF77000820863 /* Products */;
+					ProjectRef = 306EE37F204DF77000820863 /* ElectrodeContainer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -205,18 +222,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7F90FC40200976E700AA39F5 /* ElectrodeContainer.framework */ = {
+		306EE391204DF77100820863 /* ElectrodeContainer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ElectrodeContainer.framework;
-			remoteRef = 7F90FC3F200976E700AA39F5 /* PBXContainerItemProxy */;
+			remoteRef = 306EE390204DF77100820863 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7F90FC42200976E700AA39F5 /* ElectrodeContainerTests.xctest */ = {
+		306EE393204DF77100820863 /* ElectrodeContainerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ElectrodeContainerTests.xctest;
-			remoteRef = 7F90FC41200976E700AA39F5 /* PBXContainerItemProxy */;
+			remoteRef = 306EE392204DF77100820863 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -240,14 +257,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C118CC8E1FEB115C008C4DB5 /* MovieListViewController.swift in Sources */,
+				306EE3A4204DFC3000820863 /* ERNTabBarController.swift in Sources */,
 				C1B8AE3E1FEC30E50087EF41 /* ElectrodeWrapper.m in Sources */,
 				C118CC8A1FEB115C008C4DB5 /* AppDelegate.swift in Sources */,
+				306EE3A8204DFD5100820863 /* ERNNavigationController.swift in Sources */,
 				C118CCBE1FEB183C008C4DB5 /* ColorPickerViewController.swift in Sources */,
-				C118CC8C1FEB115C008C4DB5 /* IntroViewController.swift in Sources */,
+				306EE3A6204DFC6E00820863 /* ERNBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306EE395204DF78000820863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ElectrodeContainer;
+			targetProxy = 306EE394204DF78000820863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C118CC8F1FEB115C008C4DB5 /* Main.storyboard */ = {
