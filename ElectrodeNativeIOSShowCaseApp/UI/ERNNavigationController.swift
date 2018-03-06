@@ -1,4 +1,3 @@
-//
 /*
  * Copyright 2017 WalmartLabs
  
@@ -15,18 +14,20 @@
  * limitations under the License.
  */
 
-#import "ElectrodeWrapper.h"
-#import "ElectrodeContainer/ElectrodeReactNative.h"
+import UIKit
 
-@implementation ElectrodeWrapper
+class ERNNavigationController: UINavigationController {
 
-/**
- Performs a simple initialization of the Electrode Container with default config.
- */
-+ (void)setupContainer
-{
-    ElectrodeContainerConfig *config = [ElectrodeContainerConfig new];
-    [ElectrodeReactNative startWithConfigurations:config];
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
 }
-
-@end
