@@ -1,7 +1,7 @@
 # ElectrodeNativeiOSShowCaseApp
 ## Requirements
 
-- Xcode 9.1
+- Xcode 10.1. Please update Xcode project settings to use Legacy Build System  
 - Carthage. Install by downloading the latest [packaged release](https://github.com/Carthage/Carthage/releases).
 
 ## Getting Started
@@ -25,4 +25,3 @@ carthage bootstrap --no-build --platform ios
 - Change the target to `ElectrodeContainer` and build that first before building the `ElectrodeNativeIOSShowCaseApp`
 - Once container is built, change the target to `ElectrodeNativeiOSShowCaseApp` and run the project.
  
- NOTE: If you clean the project, the container needs to be built again. While building the container you might see a terminal pop up with an error, please ignore and close the window. 
